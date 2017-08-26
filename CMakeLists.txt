@@ -29,7 +29,7 @@ set(SOURCE_FILES
         src/basic/flow/if_statement.cpp
         src/basic/classes/fun_with_classes.cpp
         src/basic/classes/Person.cpp
-        src/basic/classes/Person.h)
+        src/basic/classes/Person.h src/basic/classes/King.cpp src/basic/classes/King.h)
 add_executable(awesome_cpp ${SOURCE_FILES})
 
 target_link_libraries(awesome_cpp gtest gtest_main)

@@ -5,6 +5,7 @@
 #include <gtest/gtest.h>
 #include "iostream"
 #include "Person.h"
+#include "King.h"
 using namespace std;
 
 
@@ -17,5 +18,13 @@ TEST(Classes, SimpleClass){
     Person person1;
     cout << "Person Count is " << Person::getCount() << endl;
     cout << "Person Id is " << person1.getId() << endl;
+
+    King king;
+
+    cout << "Person(King) count is " << King::getCount() << endl;
+    cout << "Person(King) Id is " << king.getId() << endl;
+    king.rename("Harald Rada");
+    cout << "Person(King) Name is " << king.getName() << endl;
+
 
 }

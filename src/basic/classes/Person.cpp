@@ -16,6 +16,7 @@ unsigned int Person::getCount() {
 }
 
 Person::Person(){
+    name = "John Doe";
     id = count;
     count++;
 
@@ -24,4 +25,8 @@ Person::Person(){
 // public unsigned int method, fill the difference with implementation of static functions  :D
 unsigned int Person::getId() {
     return id;
+}
+
+std::string Person::getName() {
+    return name;
 }
