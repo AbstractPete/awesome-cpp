@@ -28,7 +28,8 @@ set(SOURCE_FILES
         # src/basic/vectors.cpp
         # src/cpp11/use_auto.cpp
         # src/patterns/strategy/strategy.cpp
-        src/basic/flow/if_statement.cpp)
+        src/basic/flow/if_statement.cpp
+        src/basic/classes/fun_with_classes.cpp src/basic/classes/Person.cpp src/basic/classes/Person.h)
 
 add_executable(awesome_cpp ${SOURCE_FILES})
 

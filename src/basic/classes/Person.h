@@ -7,7 +7,15 @@
 
 
 class Person {
+    private:
+        static unsigned int count;
+        unsigned int id;
 
+    public:
+        static unsigned int getCount();
+
+        unsigned int getId();
+        Person();
 };
 
 
