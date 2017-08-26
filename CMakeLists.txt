@@ -3,11 +3,9 @@ project(awesome_cpp)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14")
 
-set (gtest_disable_pthreads ON)
+set (gtest_disable_pthreads on)
 add_subdirectory(lib/googletest-release-1.8.0)
 include_directories(lib/googletest-release-1.8.0/googletest/include)
-
-
 
 
 set(SOURCE_FILES
@@ -29,8 +27,9 @@ set(SOURCE_FILES
         # src/cpp11/use_auto.cpp
         # src/patterns/strategy/strategy.cpp
         src/basic/flow/if_statement.cpp
-        src/basic/classes/fun_with_classes.cpp src/basic/classes/Person.cpp src/basic/classes/Person.h)
-
+        src/basic/classes/fun_with_classes.cpp
+        src/basic/classes/Person.cpp
+        src/basic/classes/Person.h)
 add_executable(awesome_cpp ${SOURCE_FILES})
 
 target_link_libraries(awesome_cpp gtest gtest_main)
