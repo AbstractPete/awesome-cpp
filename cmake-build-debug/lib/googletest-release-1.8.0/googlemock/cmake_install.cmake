@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/lib/googletest-release-1.8.0/googlemock
+# Install script for directory: C:/Users/rty/Documents/GitHub/awesome-cpp/lib/googletest-release-1.8.0/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,20 +28,20 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/rty/Documents/GitHub/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/rty/Documents/GitHub/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/libgmock_main.a")
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/lib/googletest-release-1.8.0/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "C:/Users/rty/Documents/GitHub/awesome-cpp/lib/googletest-release-1.8.0/googlemock/include/gmock")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/cmake_install.cmake")
+  include("C:/Users/rty/Documents/GitHub/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

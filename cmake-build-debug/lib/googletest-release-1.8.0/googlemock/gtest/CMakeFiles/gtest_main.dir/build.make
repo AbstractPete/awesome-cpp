@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.1\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp"
+CMAKE_SOURCE_DIR = C:\Users\rty\Documents\GitHub\awesome-cpp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/depend.make
@@ -59,16 +59,16 @@ include lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/flags.make
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/includes_CXX.rsp
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj: ../lib/googletest-release-1.8.0/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj"
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && C:\PROGRA~1\MINGW-~1\X86_64~2.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.obj -c C:\Users\rty\Documents\GitHub\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc
 
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc" > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && C:\PROGRA~1\MINGW-~1\X86_64~2.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rty\Documents\GitHub\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc > CMakeFiles\gtest_main.dir\src\gtest_main.cc.i
 
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc" -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && C:\PROGRA~1\MINGW-~1\X86_64~2.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rty\Documents\GitHub\awesome-cpp\lib\googletest-release-1.8.0\googletest\src\gtest_main.cc -o CMakeFiles\gtest_main.dir\src\gtest_main.cc.s
 
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj.requires:
 
@@ -91,9 +91,9 @@ gtest_main_EXTERNAL_OBJECTS =
 lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a: lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
 lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a: lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make
 lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a: lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean_target.cmake
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest_main.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest_main.a"
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean_target.cmake
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest_main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/build: lib/googletest-release-1.8.0/googlemock/gtest/libgtest_main.a
@@ -105,10 +105,10 @@ lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/requires
 .PHONY : lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/requires
 
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/clean:
-	cd /d C:\Users\ARTHUR~1\CLIONP~1\AWESOM~1\CMAKE-~1\lib\GOOGLE~1.0\GOOGLE~1\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean.cmake
+	cd /d C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest && $(CMAKE_COMMAND) -P CMakeFiles\gtest_main.dir\cmake_clean.cmake
 .PHONY : lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 
 lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp" "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\lib\googletest-release-1.8.0\googletest" "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug" "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest" "C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest\CMakeFiles\gtest_main.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\rty\Documents\GitHub\awesome-cpp C:\Users\rty\Documents\GitHub\awesome-cpp\lib\googletest-release-1.8.0\googletest C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest C:\Users\rty\Documents\GitHub\awesome-cpp\cmake-build-debug\lib\googletest-release-1.8.0\googlemock\gtest\CMakeFiles\gtest_main.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : lib/googletest-release-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 

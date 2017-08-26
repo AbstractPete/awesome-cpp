@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/lib/googletest-release-1.8.0
+# Install script for directory: C:/Users/rty/Documents/GitHub/awesome-cpp/lib/googletest-release-1.8.0
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/Arthur Abramov/CLionProjects/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/cmake_install.cmake")
+  include("C:/Users/rty/Documents/GitHub/awesome-cpp/cmake-build-debug/lib/googletest-release-1.8.0/googlemock/cmake_install.cmake")
 
 endif()
 

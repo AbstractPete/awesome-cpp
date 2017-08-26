@@ -91,12 +91,25 @@ bool EQ(bool x, bool y){
     return !(XOR(x,y));
 }
 
+bool MIN(bool x, bool y) {
+    return (x*y);
+}
+
+bool MAX(bool x, bool y){
+    return x + y - (x * y);
+}
+
+bool NEGATE(bool x){
+    return 1 - x;
+}
+
+
 TEST(Flow_Control, BoleanOperations) {
     // boolean operations are
     // AND(conjunction) denoted x∧y (in c++ x&&y)
     // OR(disjunction) denoted x∨y (in c++ x||y)
     // NOT(negation) denoted  ¬x (in c++ !x)
-    // ⊕ ≡
+    // → ⊕ ≡
     // lets make truth tables for each operation
 
     cout << endl;
@@ -120,6 +133,25 @@ TEST(Flow_Control, BoleanOperations) {
 }
 
 
+TEST(Flow_Control, BooleanArithmeticInterpretation) {
+    //  x and y = x * y = min(x,y)
+    EXPECT_TRUE(MIN(true, true));
+    EXPECT_FALSE(MIN(true, false));
+    EXPECT_FALSE(MIN(false, true));
+    EXPECT_FALSE(MIN(false, false));
+
+
+    //  x or y = x + y - (x * y) = max(x,y)
+    EXPECT_TRUE(MAX(true, true));
+    EXPECT_TRUE(MAX(true, false));
+    EXPECT_TRUE(MAX(false, true));
+    EXPECT_FALSE(MAX(false, false));
+
+
+    //  !x = 1 - x
+    EXPECT_TRUE(NEGATE(false));
+    EXPECT_FALSE(NEGATE(true));
+}
 
 TEST(Flow_Control, ConstCondion) {
     // let's start from crazy staff
@@ -183,3 +215,57 @@ TEST(Flow_Control, BoleanExprCondion) {
 }
 
 
+TEST(Flow_Control, Monotone_law) {
+    // let's fun with boolean algebra:D
+    bool x = true;
+    bool y = true;
+    bool z = true;
+    // 1. Associativity of disjunction(OR): x ∨ (y ∨ z) = (x ∨ y) ∨ z
+    EXPECT_TRUE((x || (y || z)) == ((x || y) || z));
+
+    // 2. Associativity of conjunction(AND): x ∧ (y ∧ z) = (x ∧ y) ∨ z
+    EXPECT_TRUE((x && (y && z)) == ((x && y) && z));
+
+    // 3. Commutativity of disjunction(OR): x ∨ y = y ∨ x
+    EXPECT_TRUE((x || y) == (y || x));
+
+    // 4. Commutativity of conjunction(AND) x ∧ y = y ∧ x
+    EXPECT_TRUE((x || y) == (y || x));
+
+    // 5. Distributivity of conjunction(AND) over disjunction(OR) :
+    //      x ∧ (y ∨ z) = (x ∧ y) ∨ (x ∧ z)
+    EXPECT_TRUE((x && (y || z)) == ((x || y) && z));
+    // 5.Identity for disjunction(OR): x ∨ 0 = x
+    EXPECT_TRUE(x || 0 == x);
+    // 6.Identity for conjunction(AND): x ∧ 1 = x
+    EXPECT_TRUE(x && 1 == x);
+    // 7.Annihilator for conjunction(AND) x ∧ 0 = 0
+    EXPECT_TRUE((x && 0) == 0);
+
+    //8.  Annihilator for OR
+    EXPECT_TRUE(x || 1 == 1);
+    //9.  Idempotence  of OR
+    EXPECT_TRUE(x || x == x);
+    //10. Idempotence  of AND
+    EXPECT_TRUE(x && x == x);
+    //11. Absorption 1:
+    EXPECT_TRUE(x && (x || y) == x);
+    //12. Absorption 2:
+    EXPECT_TRUE(x || (x && y) == x);
+    //13. Distributivity of OR over AND
+    EXPECT_TRUE((x || (y && z)) == ((x && y) || z));
+
+    //nonmonotone laws
+    // complementation
+    EXPECT_TRUE(x && !x == 0);
+    EXPECT_TRUE(x || !x == 1);
+
+    EXPECT_TRUE(!(!x) == x);
+
+    //De Morgan 1
+    EXPECT_TRUE((!x && !y) == !(x || y));
+
+    //De Morgan 2
+    EXPECT_TRUE((!x) || (!y) == !(x && y));
+
+}
