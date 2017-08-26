@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+    <generated>
+      <config projectName="awesome_cpp" targetName="gtest" />
+      <config projectName="awesome_cpp" targetName="gtest_main" />
+      <config projectName="awesome_cpp" targetName="gmock" />
+      <config projectName="awesome_cpp" targetName="gmock_main" />
+      <config projectName="awesome_cpp" targetName="awesome_cpp" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28ffa5d6-58ff-47ec-97b3-1028804cecf1" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/basic/flow/if_statement.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/algs/bubble.cpp" afterPath="$PROJECT_DIR$/src/algs/bubble.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/conditional_inclusion.cpp" afterPath="$PROJECT_DIR$/src/basic/conditional_inclusion.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/define.cpp" afterPath="$PROJECT_DIR$/src/basic/define.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/etc/funcs_and_params.cpp" afterPath="$PROJECT_DIR$/src/basic/etc/funcs_and_params.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/etc/palette.cpp" afterPath="$PROJECT_DIR$/src/basic/etc/palette.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/etc/virtual_funcs.cpp" afterPath="$PROJECT_DIR$/src/basic/etc/virtual_funcs.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/hello.cpp" afterPath="$PROJECT_DIR$/src/basic/hello.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/io.cpp" afterPath="$PROJECT_DIR$/src/basic/io.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/namespaces/1.namespaces.cpp" afterPath="$PROJECT_DIR$/src/basic/namespaces/1.namespaces.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/namespaces/2.namespaces.cpp" afterPath="$PROJECT_DIR$/src/basic/namespaces/2.namespaces.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/namespaces/3.namespaces.cpp" afterPath="$PROJECT_DIR$/src/basic/namespaces/3.namespaces.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/namespaces/README.md" afterPath="$PROJECT_DIR$/src/basic/namespaces/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/operators/README.md" afterPath="$PROJECT_DIR$/src/basic/operators/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/operators/arithmetic.cpp" afterPath="$PROJECT_DIR$/src/basic/operators/arithmetic.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/operators/relational.cpp" afterPath="$PROJECT_DIR$/src/basic/operators/relational.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/readme.md" afterPath="$PROJECT_DIR$/src/basic/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/basic/vectors.cpp" afterPath="$PROJECT_DIR$/src/basic/vectors.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cpp11/use_auto.cpp" afterPath="$PROJECT_DIR$/src/cpp11/use_auto.cpp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/patterns/strategy/strategy.cpp" afterPath="$PROJECT_DIR$/src/patterns/strategy/strategy.cpp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="if_statement.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/basic/flow/if_statement.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+              <folding>
+                <element signature="e#52#76#0" expanded="true" />
+                <element signature="e#152#1564#0" expanded="false" />
+                <element signature="e#1694#1752#0" expanded="false" />
+                <element signature="e#1815#1881#0" expanded="false" />
+                <element signature="e#2916#3510#0" expanded="false" />
+                <element signature="e#3549#3898#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="io.cpp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/basic/io.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/basic/readme.md" />
+        <option value="$PROJECT_DIR$/basic/flow/if_statement.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/basic/flow/if_statement.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="151" />
+    <option name="y" value="111" />
+    <option name="width" value="1400" />
+    <option name="height" value="907" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="awesome_cpp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="awesome-cpp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome_cpp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="awesome-cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesome_cpp" type="dad4c3:CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <item name="awesome-cpp" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arthur Abramov\CLionProjects\awesome-cpp\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google Test.Flow_Control.BoleanOperations">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <envs />
+    </configuration>
+    <configuration name="Flow_Control.BoleanOperations" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="awesome_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="awesome_cpp" RUN_TARGET_NAME="awesome_cpp" TEST_CLASS="Flow_Control" TEST_METHOD="BoleanOperations" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Flow_Control.BooleanCasts" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="awesome_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="awesome_cpp" RUN_TARGET_NAME="awesome_cpp" TEST_CLASS="Flow_Control" TEST_METHOD="BooleanCasts" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="Flow_Control.Test" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="awesome_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="awesome_cpp" RUN_TARGET_NAME="awesome_cpp" TEST_CLASS="Flow_Control" TEST_METHOD="ConstCondion" TEST_MODE="SUITE_TEST">
+      <envs />
+    </configuration>
+    <configuration name="awesome_cpp" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="awesome_cpp" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="awesome_cpp" RUN_TARGET_NAME="awesome_cpp">
+      <envs />
+    </configuration>
+    <configuration name="gmock" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="gmock" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="gmock_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="gmock_main" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="gtest" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="gtest" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <configuration name="gtest_main" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="awesome_cpp" TARGET_NAME="gtest_main" CONFIG_NAME="Debug">
+      <envs />
+    </configuration>
+    <list size="9">
+      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="1" class="java.lang.String" itemvalue="Application.awesome_cpp" />
+      <item index="2" class="java.lang.String" itemvalue="Application.gmock" />
+      <item index="3" class="java.lang.String" itemvalue="Application.gmock_main" />
+      <item index="4" class="java.lang.String" itemvalue="Application.gtest" />
+      <item index="5" class="java.lang.String" itemvalue="Application.gtest_main" />
+      <item index="6" class="java.lang.String" itemvalue="Google Test.Flow_Control.Test" />
+      <item index="7" class="java.lang.String" itemvalue="Google Test.Flow_Control.BooleanCasts" />
+      <item index="8" class="java.lang.String" itemvalue="Google Test.Flow_Control.BoleanOperations" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Google Test.Flow_Control.BoleanOperations" />
+        <item index="1" class="java.lang.String" itemvalue="Google Test.Flow_Control.BooleanCasts" />
+        <item index="2" class="java.lang.String" itemvalue="Google Test.Flow_Control.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28ffa5d6-58ff-47ec-97b3-1028804cecf1" name="Default" comment="" />
+      <created>1503725118191</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1503725118191</updated>
+      <workItem from="1503725120260" duration="124000" />
+      <workItem from="1503725301496" duration="1579000" />
+      <workItem from="1503727011456" duration="5398000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 09h 59m 48s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 00m 26s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 01m 14s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 01m 39s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 03m 12s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 03m 37s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 16m 55s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 17m 37s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 18m 09s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Flow_Control_BoleanOperations - 2017.08.26 at 10h 18m 41s.xml">
+      <configuration name="Flow_Control.BoleanOperations" configurationId="CMakeGoogleTestRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7101000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="151" y="111" width="1400" height="907" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53070176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug Logs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924694" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44560945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25635275" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Salesforce" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/flow/if_statement.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <folding>
+            <element signature="e#52#76#0" expanded="true" />
+            <element signature="e#152#1564#0" expanded="false" />
+            <element signature="e#1694#1752#0" expanded="false" />
+            <element signature="e#1815#1881#0" expanded="false" />
+            <element signature="e#2916#3510#0" expanded="false" />
+            <element signature="e#3549#3898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="17" column="3" lean-forward="false" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/io.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" column="21" lean-forward="false" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/basic/flow/if_statement.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="184" column="0" lean-forward="true" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding>
+            <element signature="e#52#76#0" expanded="true" />
+            <element signature="e#152#1564#0" expanded="false" />
+            <element signature="e#1694#1752#0" expanded="false" />
+            <element signature="e#1815#1881#0" expanded="false" />
+            <element signature="e#2916#3510#0" expanded="false" />
+            <element signature="e#3549#3898#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
