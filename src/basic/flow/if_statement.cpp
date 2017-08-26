@@ -53,7 +53,6 @@ TEST(Flow_Control, BooleanCasts){
     EXPECT_TRUE(approx_float_zero_to_bool);
 }
 
-
 bool AND(bool x, bool y) {
     return x&&y;
 }
@@ -90,15 +89,12 @@ bool IMPL(bool x, bool y){
 bool EQ(bool x, bool y){
     return !(XOR(x,y));
 }
-
 bool MIN(bool x, bool y) {
     return (x*y);
 }
-
 bool MAX(bool x, bool y){
     return x + y - (x * y);
 }
-
 bool NEGATE(bool x){
     return 1 - x;
 }
@@ -109,7 +105,7 @@ TEST(Flow_Control, BoleanOperations) {
     // AND(conjunction) denoted x∧y (in c++ x&&y)
     // OR(disjunction) denoted x∨y (in c++ x||y)
     // NOT(negation) denoted  ¬x (in c++ !x)
-    // → ⊕ ≡
+    //  → ⊕ ≡
     // lets make truth tables for each operation
 
     cout << endl;
@@ -131,7 +127,6 @@ TEST(Flow_Control, BoleanOperations) {
         }
     }
 }
-
 
 TEST(Flow_Control, BooleanArithmeticInterpretation) {
     //  x and y = x * y = min(x,y)
@@ -213,7 +208,6 @@ TEST(Flow_Control, BoleanExprCondion) {
 
     EXPECT_EQ(result, 1);
 }
-
 
 TEST(Flow_Control, Monotone_law) {
     // let's fun with boolean algebra:D
